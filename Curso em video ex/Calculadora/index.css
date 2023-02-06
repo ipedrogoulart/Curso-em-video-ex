@@ -1,79 +1,121 @@
 *{
     margin: 0;
-
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
-    background-color: #141414;
+    background-image: url('mesa2.jpg');
+    background-position: center;
+    background-position: top;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 80px;
+    padding-top: 200px;
 }
 
-h2{
-    color: #bebebe;
-    font-size: large;
-    margin: 15px 0px 20px 0px;
-    text-align: center;
-}
+
 
 section{
-    background-color: #292929;
-    width: 256px;
+    background-color: #474747;
+    width: 275px;
     height: 350px;  
-    text-align: center;
     border-radius: 10px;
     padding: 5px 5px 0px 5px;
-    border-bottom: solid 2px indigo;
-    border-right: solid 2px indigo;
-    border-top: solid 1px #9333ff;
-    border-left: solid 1px #9333ff;
+    border-bottom: solid 2px #374303;
+    border-right: solid 2px #374303;
+    border-top: solid 2px #8f8f8f;
+    border-left: solid 2px #8f8f8f;
 }
 
-div{
-    background-color: #ffffff;
-    width: 250px;
-    height: 25px;
-    border-radius: 5px;
-    padding-top: 5px;
-    margin-bottom: 20px;
+.div1{
     
-    background-color: #bebebe;
-    border-bottom: solid 2px indigo;
-    border-right: solid 2px indigo;
-    border-top: solid 1px #9333ff;
-    border-left: solid 1px #9333ff;
+    height: 30px;
+    width: 260px;
+    display: flex;
+}
+
+.div2{
+    float: right;
+    margin-left: 105px;
+    margin-top: 5px;
+}
+
+.div{
+    display: inline-block;
+    line-height: 20px;
+    background-color: #220e0e;
+    color: #220e0e;
+    margin-right: -5px;
+    width: 30px;
     
 }
+
+.div3{
+    border-right: #727272 2px solid;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.div4{
+    border-left: #727272 1px solid;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.text{
+    width: 260px;
+    height: 33px;
+    margin-bottom: 3px;
+    margin-left: 5px;
+    letter-spacing: 3px;
+    font-size: 20px;
+    background-color: #95977f;
+    border-bottom: solid 2px #7a7a7a;
+    border-right: solid 2px #7a7a7a;
+    border-top: solid 2px #272727;
+    border-left: solid 2px #272727;
+    
+}
+
+p{
+    font-size: 12px;
+    letter-spacing: 2px;
+    padding-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
 
 
 .botao{
     width: 60px;
     height: 40px;
     font-size: large;
-    margin: 2px;
-    border-radius: 5px;
-    border-bottom: solid 2px indigo;
-    border-right: solid 2px indigo;
-    border-top: solid 1px #9333ff;
-    border-left: solid 1px #9333ff;
-    background-color: #bebebe;
+    margin-left: 7px;
+    margin-bottom: 8px;
+    border-radius: 10px;
+    border-bottom: solid 2px #374303;
+    border-right: solid 2px #374303;
+    border-top: solid 1px #b4c924;
+    border-left: solid 1px #b4c924;
+    background-color: #2b2a2a;
+    color:white;
     cursor: pointer;
     
 }
 .botao1{
-    width: 187px;
+    width: 195px;
     height: 40px;
     font-size: large;
-    margin: 2px;
+    margin: 4px;
     border-radius: 5px;
-    background-color: #bebebe;
-    border-bottom: solid 2px indigo;
-    border-right: solid 2px indigo;
-    border-top: solid 1px #9333ff;
-    border-left: solid 1px #9333ff;
+    background-color: #2b2a2a;
+    border-bottom: solid 2px #374303;
+    border-right: solid 2px #374303;
+    border-top: solid 1px #b4c924;
+    border-left: solid 1px #b4c924;
     cursor: pointer;
+    color: white;
 
 }
 
