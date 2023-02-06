@@ -74,7 +74,7 @@ section{
     border-right: solid 2px #7a7a7a;
     border-top: solid 2px #272727;
     border-left: solid 2px #272727;
-    
+    text-align: end;
 }
 
 p{
