@@ -4,9 +4,9 @@
 }
 
 body{
-    background-image: url('mesa2.jpg');
-    background-position: center;
+    background-image: linear-gradient(#0000006b,#0000006b),url(mesa2.jpg);
     background-position: top;
+    background-repeat: repeat-y;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,8 +43,8 @@ section{
 .div{
     display: inline-block;
     line-height: 20px;
-    background-color: #220e0e;
-    color: #220e0e;
+    background-color: #220e0eee;
+    color: #220e0eee;
     margin-right: -5px;
     width: 30px;
     
@@ -96,8 +96,8 @@ p{
     border-radius: 10px;
     border-bottom: solid 2px #374303;
     border-right: solid 2px #374303;
-    border-top: solid 1px #b4c924;
-    border-left: solid 1px #b4c924;
+    border-top: solid 1px #84941c;
+    border-left: solid 1px #84941c;
     background-color: #2b2a2a;
     color:white;
     cursor: pointer;
@@ -112,8 +112,8 @@ p{
     background-color: #2b2a2a;
     border-bottom: solid 2px #374303;
     border-right: solid 2px #374303;
-    border-top: solid 1px #b4c924;
-    border-left: solid 1px #b4c924;
+    border-top: solid 1px #84941c;
+    border-left: solid 1px #84941c;
     cursor: pointer;
     color: white;
 
