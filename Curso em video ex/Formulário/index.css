@@ -24,10 +24,10 @@ body{
 .container{
     background-color: #1e1e1e;
     padding: 2rem;
-    border-radius: 10px;
+    border-radius: 20px;
     min-width: 30%;
     overflow: auto;
-
+    box-shadow: indigo 0px -15px 15px;
 }
 
 h1{
